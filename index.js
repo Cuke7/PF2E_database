@@ -12,7 +12,7 @@ exports.translateToFr = function (nameEN) {
 
 exports.getDataSet = function (category) {
     return new Promise(async function (resolve, reject) {
-        glob("PF2E_DATA_EN/" + category + ".db/*.json", async function (er, files) {
+        glob(path.resolve(__dirname, "PF2E_DATA_EN/" + category + ".db/*.json"), async function (er, files) {
             let result = await readFiles(files)
             resolve(result)
         })
@@ -22,12 +22,12 @@ exports.getDataSet = function (category) {
 exports.getDataEn = async function (itemID) {
     let itemTemp = idpaths.find(item => item.id == itemID)
     if (!itemTemp) return Promise.resolve({})
-    const data = await fs.promises.readFile("./PF2E_DATA_EN/" + itemTemp.path);
+    const data = await fs.promises.readFile(path.resolve(__dirname, "./PF2E_DATA_EN/" + itemTemp.path));
     let item = JSON.parse(data)
     return Promise.resolve(item)
 }
 
-exports.geDescriptionFr = async function (itemID) {
+exports.getDescriptionFr = async function (itemID) {
     let err = { nameFR: null, descriptionFR: null, references: [] }
     let item = dictionary.find(item => item.pathFR.split("/")[1].includes(itemID))
     if (!item) return Promise.resolve(err)

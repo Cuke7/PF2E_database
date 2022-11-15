@@ -131,7 +131,7 @@ console.log(nameFR);
 
 ## Get item (french)
 
-### `db.geDescriptionFr(id) -> promise`
+### `db.getDescriptionFr(id) -> promise`
 
 Get the french description for an item by providing his **_id_**. Whenever the description makes a reference to another item, the item name and id is provided in the **_references_** field. Returns a empty object if the id is incorrect.
 
@@ -139,7 +139,7 @@ Get the french description for an item by providing his **_id_**. Whenever the d
 
 ```javascript
 const db = require("pf2e-database");
-let description = await db.geDescriptionFr("GUnw9YXaW3YyaCAU");
+let description = await db.getDescriptionFr("GUnw9YXaW3YyaCAU");
 console.log(description);
 /*
 {
@@ -158,7 +158,7 @@ console.log(description);
 }
 */
 
-let description = await db.geDescriptionFr("foo");
+let description = await db.getDescriptionFr("foo");
 console.log(description);
 /*
 {}
