@@ -9,6 +9,12 @@ The data comes from 2 github repositories:
 
 _Disclaimer : the data doesn't belong to me and this project was purely made as an exercise.\*_
 
+## Installation
+
+```bash
+npm install pf2e-database
+```
+
 ## Get datasets
 
 ### `db.getDataSet(dataSetName) -> promise`
