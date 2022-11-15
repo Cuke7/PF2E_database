@@ -7,7 +7,7 @@ The data comes from 2 github repositories:
 -   https://github.com/foundryvtt/pf2e
 -   https://github.com/pathfinder-fr/foundryvtt-pathfinder2-fr
 
-Disclaimer : the data doesn't belong to me and this project was purely made as an exercise.
+_Disclaimer : the data doesn't belong to me and this project was purely made as an exercise.\*_
 
 ## Get datasets
 
