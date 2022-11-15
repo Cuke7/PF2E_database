@@ -2,6 +2,7 @@ const fs = require('fs');
 let glob = require('glob');
 let dictionary = require('./Dictionaries/dictionary.json')
 let idpaths = require('./Dictionaries/idPaths.json')
+const path = require('path');
 
 exports.translateToFr = function (nameEN) {
     let translation = dictionary.find(item => item.nameEN.toLowerCase() === nameEN.toLowerCase())
@@ -31,7 +32,9 @@ exports.geDescriptionFr = async function (itemID) {
     let item = dictionary.find(item => item.pathFR.split("/")[1].includes(itemID))
     if (!item) return Promise.resolve(err)
     let nameFR = item.nameFR
-    let data = await fs.promises.readFile("PF2E_DATA_FR/" + item.pathFR + ".htm").catch(err => console.log(err))
+
+    let data = await fs.promises.readFile(path.resolve(__dirname, "PF2E_DATA_FR/" + item.pathFR + ".htm")).catch(err => console.log(err))
+    // let data = await fs.promises.readFile("PF2E_DATA_FR/" + item.pathFR + ".htm").catch(err => console.log(err))
     if (!data) return Promise.resolve(err)
     let description = null
     data = data + ""
