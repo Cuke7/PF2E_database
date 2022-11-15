@@ -56,6 +56,11 @@ console.log(set);
       attacks: [Object],
       ...
 */
+let set = await db.getDataSet("foo");
+console.log(set);
+/*
+{}
+*/
 ```
 
 ## Get item (english)
@@ -92,6 +97,11 @@ console.log(description);
   type: 'action'
 }
 */
+let description = await db.getDataEn("foo");
+console.log(description);
+/*
+{}
+*/
 ```
 
 ## French translation
@@ -106,7 +116,11 @@ Get the french translation for the **_item_** provided.
 const db = require("pf2e-database");
 let nameFR = await db.translateToFr("Breath Weapon");
 console.log(nameFR);
-// Arme de souffle
+// 'Arme de souffle'
+
+let nameFR = await db.translateToFr("foo");
+console.log(nameFR);
+// ''
 ```
 
 ## Get item (french)
@@ -136,5 +150,11 @@ console.log(description);
     { name: 'Vision dans le noir', id: '0gv9D5RlrF5cKA3I' }
   ]
 }
+*/
+
+let description = await db.getDataFr("foo");
+console.log(description);
+/*
+{}
 */
 ```

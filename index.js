@@ -6,7 +6,7 @@ let idpaths = require('./Dictionaries/idPaths.json')
 exports.translateToFr = function (nameEN) {
     let translation = dictionary.find(item => item.nameEN.toLowerCase() === nameEN.toLowerCase())
     if (translation) return translation.nameFR
-    return undefined
+    return ''
 }
 
 exports.getDataSet = function (category) {
@@ -20,7 +20,7 @@ exports.getDataSet = function (category) {
 
 exports.getDataEn = async function (itemID) {
     let itemTemp = idpaths.find(item => item.id == itemID)
-    if (!itemTemp) return Promise.resolve(null)
+    if (!itemTemp) return Promise.resolve({})
     const data = await fs.promises.readFile("./PF2E_DATA_EN/" + itemTemp.path);
     let item = JSON.parse(data)
     return Promise.resolve(item)
