@@ -26,7 +26,7 @@ exports.getDataEn = async function (itemID) {
     return Promise.resolve(item)
 }
 
-exports.getDataFr = async function (itemID) {
+exports.geDescriptionFr = async function (itemID) {
     let err = { nameFR: null, descriptionFR: null, references: [] }
     let item = dictionary.find(item => item.pathFR.split("/")[1].includes(itemID))
     if (!item) return Promise.resolve(err)

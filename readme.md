@@ -73,7 +73,7 @@ console.log(set);
 
 ### `db.getDataEn(id) -> promise`
 
-Retrieve the item by providing his **_id_**. Returns a empty object if the ID is incorrect.
+Retrieve the item by providing his **_id_**. Returns a empty object if the id is incorrect.
 
 **Exemple:**
 
@@ -114,7 +114,7 @@ console.log(description);
 
 ### `db.translateToFr(item) -> string`
 
-Get the french translation for the **_item_** provided. Returns a empty string if the ID is incorrect.
+Get the french translation for the **_item_** provided. Returns a empty string if the id is incorrect.
 
 **Exemple:**
 
@@ -131,9 +131,9 @@ console.log(nameFR);
 
 ## Get item (french)
 
-### `db.getDataFr(id) -> promise`
+### `db.geDescriptionFr(id) -> promise`
 
-Get the french description for an item by providing his **_id_**. Whenever the description makes a reference to another item, the item name and id is provided in the **_references_** field. Returns a empty object if the ID is incorrect.
+Get the french description for an item by providing his **_id_**. Whenever the description makes a reference to another item, the item name and id is provided in the **_references_** field. Returns a empty object if the id is incorrect.
 
 **Exemple:**
 
