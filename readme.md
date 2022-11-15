@@ -139,7 +139,7 @@ Get the french description for an item by providing his **_id_**. Whenever the d
 
 ```javascript
 const db = require("pf2e-database");
-let description = await db.getDataFr("GUnw9YXaW3YyaCAU");
+let description = await db.geDescriptionFr("GUnw9YXaW3YyaCAU");
 console.log(description);
 /*
 {
@@ -158,7 +158,7 @@ console.log(description);
 }
 */
 
-let description = await db.getDataFr("foo");
+let description = await db.geDescriptionFr("foo");
 console.log(description);
 /*
 {}
