@@ -7,7 +7,7 @@ The data comes from 2 github repositories:
 -   https://github.com/foundryvtt/pf2e
 -   https://github.com/pathfinder-fr/foundryvtt-pathfinder2-fr
 
-_Disclaimer : the data doesn't belong to me and this project was purely made as an exercise.\*_
+_Disclaimer : the data doesn't belong to me and this project was purely made as an exercise._
 
 ## Installation
 
@@ -19,7 +19,7 @@ npm install pf2e-database
 
 ### `db.getDataSet(dataSetName) -> promise`
 
-Retrieve a whole dataset by providing its name. See the list of allowed **_dataSetName_** arguments [here](https://github.com/foundryvtt/pf2e/tree/master/packs/data).
+Retrieve a whole dataset by providing its name. See the list of allowed **_dataSetName_** arguments [here](https://github.com/foundryvtt/pf2e/tree/master/packs/data). Returns a empty object if the dataset name is incorrect.
 
 **Exemple:**
 
@@ -73,7 +73,7 @@ console.log(set);
 
 ### `db.getDataEn(id) -> promise`
 
-Retrieve the item by providing his **_id_**.
+Retrieve the item by providing his **_id_**. Returns a empty object if the ID is incorrect.
 
 **Exemple:**
 
@@ -114,7 +114,7 @@ console.log(description);
 
 ### `db.translateToFr(item) -> string`
 
-Get the french translation for the **_item_** provided.
+Get the french translation for the **_item_** provided. Returns a empty string if the ID is incorrect.
 
 **Exemple:**
 
@@ -133,7 +133,7 @@ console.log(nameFR);
 
 ### `db.getDataFr(id) -> promise`
 
-Get the french description for an item by providing his **_id_**. Whenever the description makes a reference to another item, the item name and id is provided in the **_references_** field.
+Get the french description for an item by providing his **_id_**. Whenever the description makes a reference to another item, the item name and id is provided in the **_references_** field. Returns a empty object if the ID is incorrect.
 
 **Exemple:**
 
