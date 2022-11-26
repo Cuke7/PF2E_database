@@ -17,15 +17,15 @@ npm install pf2e-database
 
 ## Get datasets
 
-### `db.getDataSet(dataSetName) -> promise`
+### `getDataSet(dataSetName) -> promise`
 
 Retrieve a whole dataset by providing its name. See the list of allowed **_dataSetName_** arguments [here](https://github.com/foundryvtt/pf2e/tree/master/packs/data). Returns a empty object if the dataset name is incorrect.
 
 **Exemple:**
 
 ```javascript
-const db = require("pf2e-database");
-let set = await db.getDataSet("classes");
+import { getDataSet } from "pf2e-database";
+let set = await getDataSet("classes");
 console.log(set);
 /*
 {
@@ -62,7 +62,7 @@ console.log(set);
       attacks: [Object],
       ...
 */
-let set = await db.getDataSet("foo");
+let set = await getDataSet("foo");
 console.log(set);
 /*
 {}
@@ -71,15 +71,15 @@ console.log(set);
 
 ## Get item (english)
 
-### `db.getDataEn(id) -> promise`
+### `getDataEn(id) -> promise`
 
 Retrieve the item by providing his **_id_**. Returns a empty object if the id is incorrect.
 
 **Exemple:**
 
 ```javascript
-const db = require("pf2e-database");
-let description = await db.getDataEn("Xg57qG1rOfSSobke");
+import { getDataEn } from "pf2e-database";
+let description = await getDataEn("Xg57qG1rOfSSobke");
 console.log(description);
 /*
 {
@@ -103,7 +103,7 @@ console.log(description);
   type: 'action'
 }
 */
-let description = await db.getDataEn("foo");
+let description = await getDataEn("foo");
 console.log(description);
 /*
 {}
@@ -112,19 +112,19 @@ console.log(description);
 
 ## French translation
 
-### `db.translateToFr(item) -> string`
+### `translateToFr(item) -> string`
 
 Get the french translation for the **_item_** provided. Returns a empty string if the id is incorrect.
 
 **Exemple:**
 
 ```javascript
-const db = require("pf2e-database");
-let nameFR = await db.translateToFr("Breath Weapon");
+import { translateToFr } = from "pf2e-database";
+let nameFR = await translateToFr("Breath Weapon");
 console.log(nameFR);
 // 'Arme de souffle'
 
-let nameFR = await db.translateToFr("foo");
+let nameFR = await translateToFr("foo");
 console.log(nameFR);
 // ''
 ```
@@ -138,8 +138,8 @@ Get the french description for an item by providing his **_id_**. Whenever the d
 **Exemple:**
 
 ```javascript
-const db = require("pf2e-database");
-let description = await db.getDescriptionFr("GUnw9YXaW3YyaCAU");
+import { getDescriptionFr } = from "pf2e-database";
+let description = await getDescriptionFr("GUnw9YXaW3YyaCAU");
 console.log(description);
 /*
 {
@@ -158,7 +158,7 @@ console.log(description);
 }
 */
 
-let description = await db.getDescriptionFr("foo");
+let description = await getDescriptionFr("foo");
 console.log(description);
 /*
 {}

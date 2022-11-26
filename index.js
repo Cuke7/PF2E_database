@@ -12,8 +12,10 @@ exports.translateToFr = function (nameEN) {
 
 exports.getDataSet = function (category) {
     return new Promise(async function (resolve, reject) {
-        glob(path.resolve(__dirname, "PF2E_DATA_EN/" + category + ".db/*.json"), async function (er, files) {
-            let result = await readFiles(files)
+        const fullPath = path.join(__dirname, "./PF2E_DATA_EN/" + category + ".db")
+        fs.readdir(fullPath, async (error, files) => {
+            // console.log(files)
+            let result = await readFiles(files.map(path => fullPath + "/" + path))
             resolve(result)
         })
     })
@@ -65,9 +67,10 @@ async function readFiles(files) {
     let out = {}
     for (const file of files) {
         const data = await fs.promises.readFile(file);
-        let nameEN = file.split("/")[2].split(".json")[0]
+        const name = file.split("/")[file.split("/").length - 1].split(".json")[0]
         let fileData = Buffer.from(data);
-        out[nameEN] = JSON.parse(fileData.toString())
+        const item = JSON.parse(fileData.toString())
+        out[name] = item
     }
     return out
 }
