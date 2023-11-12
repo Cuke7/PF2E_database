@@ -23,7 +23,7 @@ const testDataBase = async () => {
 
   let descriptionFR = await getDescriptionFr("GUnw9YXaW3YyaCAU");
   console.log(
-    "getDataEn:",
+    "descriptionFR:",
     descriptionFR.nameFR == "Auto-adaptation" ? true : false
   );
 };

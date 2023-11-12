@@ -13,7 +13,7 @@ exports.translateToFr = function (nameEN) {
 
 exports.getDataSet = function (category) {
   return new Promise(async function (resolve, reject) {
-    const fullPath = path.join(__dirname, "./PF2E_DATA_EN/" + category + ".db");
+    const fullPath = path.join(__dirname, "./PF2E_DATA_EN/" + category);
     fs.readdir(fullPath, async (error, files) => {
       // console.log(files)
       let result = await readFiles(files.map((path) => fullPath + "/" + path));
