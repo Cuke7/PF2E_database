@@ -1,0 +1,55 @@
+{
+    "_id": "ony7u60cfBMtLG8F",
+    "img": "systems/pf2e/icons/equipment/treasure/art-objects/greater-art-object/gold-chalice-with-black-pearls.webp",
+    "name": "Gold chalice with black pearls",
+    "system": {
+        "baseItem": null,
+        "containerId": null,
+        "description": {
+            "value": ""
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 0
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "price": {
+            "value": {
+                "gp": 250
+            }
+        },
+        "publication": {
+            "license": "OGL",
+            "remaster": false,
+            "title": "Pathfinder Gamemastery Guide"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "stackGroup": null,
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "usage": {
+            "value": ""
+        },
+        "weight": {
+            "value": "-"
+        }
+    },
+    "type": "treasure"
+}

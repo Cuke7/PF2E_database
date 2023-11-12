@@ -1,0 +1,37 @@
+{
+    "_id": "QMWvYf8Qowj2Fzmx",
+    "img": "systems/pf2e/icons/actions/Passive.webp",
+    "name": "(Graveknight) Dark Deliverance",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "defensive",
+        "description": {
+            "value": "<p>The graveknight has positive resistance equal to its level.</p>"
+        },
+        "publication": {
+            "license": "OGL",
+            "remaster": false,
+            "title": "Pathfinder Bestiary"
+        },
+        "requirements": {
+            "value": ""
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "trigger": {
+            "value": ""
+        },
+        "weapon": {
+            "value": ""
+        }
+    },
+    "type": "action"
+}

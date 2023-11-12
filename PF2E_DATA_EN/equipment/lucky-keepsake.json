@@ -1,0 +1,74 @@
+{
+    "_id": "nza9skYTNtJe2Wd3",
+    "img": "systems/pf2e/icons/equipment/consumables/talismans/vanishing-coin.webp",
+    "name": "Lucky Keepsake",
+    "system": {
+        "baseItem": null,
+        "containerId": "null",
+        "description": {
+            "value": "<p>Obtained from @UUID[Compendium.pf2e.feats-srd.Item.Lucky Keepsake]</p>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 9
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "price": {
+            "value": {}
+        },
+        "publication": {
+            "license": "OGL",
+            "remaster": false,
+            "title": "Pathfinder Lost Omens: Character Guide"
+        },
+        "quantity": 1,
+        "rules": [
+            {
+                "key": "FlatModifier",
+                "predicate": [
+                    {
+                        "or": [
+                            "arcane",
+                            "divine",
+                            "primal",
+                            "occult",
+                            "magic",
+                            "spell"
+                        ]
+                    }
+                ],
+                "selector": "saving-throw",
+                "type": "circumstance",
+                "value": 1
+            }
+        ],
+        "size": "med",
+        "stackGroup": null,
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "leshy"
+            ]
+        },
+        "usage": {
+            "value": "held-in-one-hand"
+        },
+        "weight": {
+            "value": "-"
+        }
+    },
+    "type": "equipment"
+}

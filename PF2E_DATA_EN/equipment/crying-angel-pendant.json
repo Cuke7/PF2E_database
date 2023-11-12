@@ -1,0 +1,72 @@
+{
+    "_id": "HHELOoN5GVonUiIa",
+    "img": "icons/commodities/treasure/trinket-wing-white.webp",
+    "name": "Crying Angel Pendant",
+    "system": {
+        "autoDestroy": {
+            "value": true
+        },
+        "baseItem": null,
+        "charges": {
+            "max": 1,
+            "value": 1
+        },
+        "consumableType": {
+            "value": "talisman"
+        },
+        "consume": {
+            "value": ""
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">D</span> (concentrate)</p>\n<hr />\n<p>When you activate this alabaster pendant, attempt to Administer First Aid using Medicine with a +1 item bonus to the check. If you succeed, and you were trying to stabilize, the target regains 1 Hit Point, losing the dying condition and becoming conscious as normal. If you succeed, and you were trying to stop bleeding, the bleeding ends.</p>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 2
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "price": {
+            "value": {
+                "gp": 7
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Pathfinder GM Core"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "stackGroup": null,
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "consumable",
+                "divine",
+                "talisman"
+            ]
+        },
+        "usage": {
+            "value": "affixed-to-armor"
+        },
+        "weight": {
+            "value": "-"
+        }
+    },
+    "type": "consumable"
+}

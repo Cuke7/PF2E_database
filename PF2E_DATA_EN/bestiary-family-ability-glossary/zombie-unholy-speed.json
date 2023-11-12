@@ -1,0 +1,34 @@
+{
+    "_id": "2k0X7JdI9MMt4pp0",
+    "img": "systems/pf2e/icons/actions/Passive.webp",
+    "name": "(Zombie) Unholy Speed",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "offensive",
+        "description": {
+            "value": "<p>The zombie gains a +10 status bonus to all its Speeds.</p>"
+        },
+        "publication": {
+            "license": "OGL",
+            "remaster": false,
+            "title": "Pathfinder Bestiary 3"
+        },
+        "requirements": {
+            "value": ""
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": []
+        },
+        "trigger": {
+            "value": ""
+        }
+    },
+    "type": "action"
+}

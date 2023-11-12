@@ -1,0 +1,50 @@
+{
+    "_id": "PMckhnGYMyiwUNiL",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Master Wizard Spellcasting",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>You gain the master spellcasting benefits.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert Wizard Spellcasting"
+                },
+                {
+                    "value": "legendary in Arcana"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Pathfinder Player Core"
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.spellcasting.rank",
+                "value": 3
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "archetype"
+            ]
+        }
+    },
+    "type": "feat"
+}

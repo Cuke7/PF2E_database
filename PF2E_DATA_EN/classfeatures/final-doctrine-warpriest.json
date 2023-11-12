@@ -1,0 +1,43 @@
+{
+    "_id": "N1ugDqZlslxbp3Uy",
+    "img": "systems/pf2e/icons/features/classes/warpriest.webp",
+    "name": "Final Doctrine (Warpriest)",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "classfeature",
+        "description": {
+            "value": "<p>You gain master proficiency with your deity's favored weapon, spell attack modifier, and spell DC.</p>"
+        },
+        "level": {
+            "value": 19
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Pathfinder Player Core"
+        },
+        "rules": [
+            {
+                "key": "ActiveEffectLike",
+                "mode": "upgrade",
+                "path": "system.proficiencies.spellcasting.rank",
+                "value": 3
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "cleric"
+            ]
+        }
+    },
+    "type": "feat"
+}

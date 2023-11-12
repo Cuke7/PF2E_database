@@ -1,0 +1,72 @@
+{
+    "_id": "1v1OK06JxdXn6MP4",
+    "img": "systems/pf2e/icons/equipment/consumables/talismans/sneaky-key.webp",
+    "name": "Sneaky Key",
+    "system": {
+        "autoDestroy": {
+            "value": true
+        },
+        "baseItem": null,
+        "charges": {
+            "max": 1,
+            "value": 1
+        },
+        "consumableType": {
+            "value": "talisman"
+        },
+        "consume": {
+            "value": ""
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (manipulate)</p>\n<p><strong>Requirements</strong> You are trained in Thievery</p>\n<hr />\n<p>This small silver skeleton key can be pinned to armor or a sleeve. When you turn the key to activate it, you gain a +1 status bonus to Thievery checks to Pick a Lock for 1 minute. The first time you get a success or critical success on an attempt to Pick a Lock, you achieve one additional success toward opening a complex lock.</p>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 5
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "price": {
+            "value": {
+                "gp": 22
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Pathfinder GM Core"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "stackGroup": null,
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "consumable",
+                "magical",
+                "talisman"
+            ]
+        },
+        "usage": {
+            "value": "affixed-to-armor"
+        },
+        "weight": {
+            "value": "-"
+        }
+    },
+    "type": "consumable"
+}

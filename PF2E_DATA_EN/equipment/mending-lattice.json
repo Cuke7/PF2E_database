@@ -1,0 +1,72 @@
+{
+    "_id": "JSmdTDUEGwHVbV7g",
+    "img": "systems/pf2e/icons/equipment/consumables/talismans/mending-lattice.webp",
+    "name": "Mending Lattice",
+    "system": {
+        "autoDestroy": {
+            "value": true
+        },
+        "baseItem": null,
+        "charges": {
+            "max": 1,
+            "value": 1
+        },
+        "consumableType": {
+            "value": "talisman"
+        },
+        "consume": {
+            "value": ""
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Trigger</strong> The affixed item would take damage</p>\n<p><strong>Requirements</strong> You are trained in Crafting</p>\n<hr />\n<p>This lattice of reinforced iron is shaped into a perfect octagon. When you activate it, it negates the damage and instantly and completely repairs the affixed item.</p>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 13
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "price": {
+            "value": {
+                "gp": 525
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Pathfinder GM Core"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "stackGroup": null,
+        "traits": {
+            "rarity": "uncommon",
+            "value": [
+                "consumable",
+                "magical",
+                "talisman"
+            ]
+        },
+        "usage": {
+            "value": "affixed-to-a-shield-or-weapon"
+        },
+        "weight": {
+            "value": "-"
+        }
+    },
+    "type": "consumable"
+}

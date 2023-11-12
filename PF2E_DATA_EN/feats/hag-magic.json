@@ -1,0 +1,36 @@
+{
+    "_id": "t6GBBIwX7hvvxYyV",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Hag Magic",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Through your heritage, you can replicate a hag's magic. Choose one common spell of 4th rank or lower from those available to a coven, including the spells contributed to a coven by a hag of your mother's type. You can cast this spell once per day as a 4th-rank occult innate spell.</p>\n<p>Spells available to all covens are <em>@UUID[Compendium.pf2e.spells-srd.Item.Augury]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Charm]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Clairaudience]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Clairvoyance]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Dream Message]</em>, and <em>@UUID[Compendium.pf2e.spells-srd.Item.Illusory Disguise]</em>. The eligible spells granted by the most prominent types of hag are:</p>\n<p><strong>Cuckoo Hag</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.Nightmare]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Spellwrack]</em></p>\n<p><strong>Iron Hag</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.Earthbind]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Spellwrack]</em></p>\n<p><strong>Sea Hag</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.Humanoid Form]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Mariner's Curse]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Water Walk]</em></p>\n<p><strong>Sweet Hag</strong> <em>@UUID[Compendium.pf2e.spells-srd.Item.Charm]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Honeyed Words]</em>, <em>@UUID[Compendium.pf2e.spells-srd.Item.Outcast's Curse]</em></p>"
+        },
+        "level": {
+            "value": 13
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Pathfinder Player Core"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "changeling"
+            ]
+        }
+    },
+    "type": "feat"
+}

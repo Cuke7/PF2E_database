@@ -1,0 +1,39 @@
+{
+    "_id": "iAXHLkxuuCUOwqkN",
+    "img": "systems/pf2e/icons/actions/Passive.webp",
+    "name": "(Werecreature) Animal Empathy",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "interaction",
+        "description": {
+            "value": "<p>A werecreature can communicate with animals of the same general kind.</p>"
+        },
+        "publication": {
+            "license": "OGL",
+            "remaster": false,
+            "title": "Pathfinder Bestiary"
+        },
+        "requirements": {
+            "value": ""
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "primal"
+            ]
+        },
+        "trigger": {
+            "value": ""
+        },
+        "weapon": {
+            "value": ""
+        }
+    },
+    "type": "action"
+}

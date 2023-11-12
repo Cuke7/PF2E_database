@@ -1,0 +1,45 @@
+{
+    "_id": "G1BPXzTzrUE4IndV",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Defy The Darkness",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "ancestry",
+        "description": {
+            "value": "<p>Using ancient dwarven methods developed to fight enemies wielding magical darkness, you've honed your darkvision and sworn not to use such magic yourself. You gain greater darkvision, enabling you to see through magical darkness even if it normally hampers darkvision (such as the darkness created by a 4th-rank @UUID[Compendium.pf2e.spells-srd.Item.Darkness] spell). You can't cast spells with the darkness trait, use item activations with the darkness trait, or use any other ability with the darkness trait.</p>"
+        },
+        "level": {
+            "value": 5
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "darkvision"
+                }
+            ]
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Pathfinder Player Core"
+        },
+        "rules": [
+            {
+                "key": "Sense",
+                "selector": "greaterDarkvision"
+            }
+        ],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "dwarf"
+            ]
+        }
+    },
+    "type": "feat"
+}

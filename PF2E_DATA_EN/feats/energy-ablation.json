@@ -1,0 +1,37 @@
+{
+    "_id": "iS4Vc2zv7vgL5mnX",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Energy Ablation",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>As you direct destructive energy at a foe, you can divert some of its power into a protective barrier that shields you from harm. If your next action is to Cast a Spell that deals at least one type of energy damage (acid, cold, electricity, fire, force, sonic, vitality, or void), you gain resistance to an energy damage type of your choice equal to the spell's rank. The resistance lasts until the end of your next turn. You get the resistance regardless of whether or not your spell dealt damage.</p>"
+        },
+        "level": {
+            "value": 2
+        },
+        "prerequisites": {
+            "value": []
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Pathfinder Player Core"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "metamagic",
+                "wizard"
+            ]
+        }
+    },
+    "type": "feat"
+}

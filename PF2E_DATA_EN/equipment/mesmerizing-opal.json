@@ -1,0 +1,72 @@
+{
+    "_id": "aKbrBW1SnFDxya5J",
+    "img": "systems/pf2e/icons/equipment/consumables/talismans/mesmerizing-opal.webp",
+    "name": "Mesmerizing Opal",
+    "system": {
+        "autoDestroy": {
+            "value": true
+        },
+        "baseItem": null,
+        "charges": {
+            "max": 1,
+            "value": 1
+        },
+        "consumableType": {
+            "value": "talisman"
+        },
+        "consume": {
+            "value": ""
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">A</span> (concentrate)</p>\n<hr />\n<p>This silver-bound opal pendant is afire with iridescence. When you activate it, attempt a Deception check to @UUID[Compendium.pf2e.actionspf2e.Item.Feint]. If the outcome is a success, you get a critical success instead. If the outcome is a critical failure, you get a failure instead.</p>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 2
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "price": {
+            "value": {
+                "gp": 7
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Pathfinder GM Core"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "stackGroup": null,
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "consumable",
+                "magical",
+                "talisman"
+            ]
+        },
+        "usage": {
+            "value": "affixed-to-armor"
+        },
+        "weight": {
+            "value": "-"
+        }
+    },
+    "type": "consumable"
+}

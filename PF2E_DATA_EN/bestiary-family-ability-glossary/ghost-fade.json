@@ -1,0 +1,37 @@
+{
+    "_id": "lAnJ25DSs44Ya8jg",
+    "img": "systems/pf2e/icons/actions/OneAction.webp",
+    "name": "(Ghost) Fade",
+    "system": {
+        "actionType": {
+            "value": "action"
+        },
+        "actions": {
+            "value": 1
+        },
+        "category": "defensive",
+        "description": {
+            "value": "<p>The ghost becomes @UUID[Compendium.pf2e.conditionitems.Item.Invisible] until the beginning of its next turn.</p>"
+        },
+        "publication": {
+            "license": "OGL",
+            "remaster": false,
+            "title": "Pathfinder #165: Eyes of Empty Death"
+        },
+        "requirements": {
+            "value": ""
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "divine",
+                "illusion"
+            ]
+        },
+        "trigger": {
+            "value": ""
+        }
+    },
+    "type": "action"
+}

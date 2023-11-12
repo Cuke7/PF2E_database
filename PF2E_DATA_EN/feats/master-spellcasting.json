@@ -1,0 +1,40 @@
+{
+    "_id": "NAgaDfwUSjPAon4o",
+    "img": "systems/pf2e/icons/features/feats/feats.webp",
+    "name": "Master Spellcasting",
+    "system": {
+        "actionType": {
+            "value": "passive"
+        },
+        "actions": {
+            "value": null
+        },
+        "category": "class",
+        "description": {
+            "value": "<p>You gain the master spellcasting archetype benefits.</p>"
+        },
+        "level": {
+            "value": 18
+        },
+        "prerequisites": {
+            "value": [
+                {
+                    "value": "Expert Spellcasting"
+                }
+            ]
+        },
+        "publication": {
+            "license": "OGL",
+            "remaster": false,
+            "title": "Pathfinder Secrets of Magic"
+        },
+        "rules": [],
+        "traits": {
+            "rarity": "rare",
+            "value": [
+                "pervasive-magic"
+            ]
+        }
+    },
+    "type": "feat"
+}

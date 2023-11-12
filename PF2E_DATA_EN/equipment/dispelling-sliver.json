@@ -1,0 +1,72 @@
+{
+    "_id": "mGIJCGFkBQLkzhTg",
+    "img": "systems/pf2e/icons/equipment/consumables/talismans/dispelling-sliver.webp",
+    "name": "Dispelling Sliver",
+    "system": {
+        "autoDestroy": {
+            "value": true
+        },
+        "baseItem": null,
+        "charges": {
+            "max": 1,
+            "value": 1
+        },
+        "consumableType": {
+            "value": "talisman"
+        },
+        "consume": {
+            "value": ""
+        },
+        "containerId": null,
+        "description": {
+            "value": "<p><strong>Activate</strong> <span class=\"action-glyph\">F</span> (concentrate)</p>\n<p><strong>Trigger</strong> Your Strike damages a target</p>\n<hr />\n<p>Made from a treated sliver of cold iron, this talisman allows you to counteract magical effects. When you activate the <em>dispelling sliver</em>, it attempts to counteract a single spell active on the target (counteract modifier +29), with the effects of an 8th-rank <em>@UUID[Compendium.pf2e.spells-srd.Item.Dispel Magic]</em> spell. If you activate the talisman on a successful Dispelling Slice, the talisman attempts to counteract all spells active on the target, in addition to your attempt from Dispelling Slice.</p>"
+        },
+        "equippedBulk": {
+            "value": ""
+        },
+        "hardness": 0,
+        "hp": {
+            "max": 0,
+            "value": 0
+        },
+        "level": {
+            "value": 17
+        },
+        "material": {
+            "grade": null,
+            "type": null
+        },
+        "negateBulk": {
+            "value": "0"
+        },
+        "price": {
+            "value": {
+                "gp": 2400
+            }
+        },
+        "publication": {
+            "license": "ORC",
+            "remaster": true,
+            "title": "Pathfinder GM Core"
+        },
+        "quantity": 1,
+        "rules": [],
+        "size": "med",
+        "stackGroup": null,
+        "traits": {
+            "rarity": "common",
+            "value": [
+                "consumable",
+                "magical",
+                "talisman"
+            ]
+        },
+        "usage": {
+            "value": "affixed-to-weapon"
+        },
+        "weight": {
+            "value": "-"
+        }
+    },
+    "type": "consumable"
+}
