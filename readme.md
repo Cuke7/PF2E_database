@@ -4,8 +4,8 @@ pf2e-database is a module alowing to access data from Pathfinder 2E.
 
 The data comes from 2 github repositories:
 
--   https://github.com/foundryvtt/pf2e
--   https://github.com/pathfinder-fr/foundryvtt-pathfinder2-fr
+- https://github.com/foundryvtt/pf2e
+- https://github.com/pathfinder-fr/foundryvtt-pathfinder2-fr
 
 _Disclaimer : the data doesn't belong to me and this project was purely made as an exercise._
 
@@ -19,7 +19,7 @@ npm install pf2e-database
 
 ### `getDataSet(dataSetName) -> promise`
 
-Retrieve a whole dataset by providing its name. See the list of allowed **_dataSetName_** arguments [here](https://github.com/foundryvtt/pf2e/tree/master/packs/data). Returns a empty object if the dataset name is incorrect.
+Retrieve a whole dataset by providing its name. See the list of allowed **_dataSetName_** arguments [here](https://github.com/foundryvtt/pf2e/tree/master/packs). Returns a empty object if the dataset name is incorrect.
 
 **Exemple:**
 
